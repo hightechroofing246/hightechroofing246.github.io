@@ -517,6 +517,11 @@ margin-left: 45%
     background-color: #0c0b11;
       color: #999999;
   }
+  .footer-home {
+    background-color: #0c0b11;
+      color: #999999;
+      margin-top: 8em !important;
+  }
 
   .footer .btn.btn-link {
       display: block;
@@ -550,20 +555,52 @@ margin-left: 45%
       font-size: 15px;
       border-top: 1px solid rgba(256, 256, 256, .1);
   }
+  .footer-home .btn.btn-link {
+      display: block;
+      margin-bottom: 5px;
+      padding: 0;
+      text-align: left;
+      color: #999999;
+      font-weight: normal;
+      text-transform: capitalize;
+      transition: .3s;
+  }
+
+  .footer-home .btn.btn-link::before {
+      position: relative;
+      content: "\f105";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      color: #999999;
+      margin-right: 10px;
+  }
+
+  .footer-home .btn.btn-link:hover {
+      color: var(--light);
+      letter-spacing: 1px;
+      box-shadow: none;
+  }
+
+  .footer-home .copyright {
+      padding: 25px 0;
+      
+      font-size: 15px;
+      border-top: 1px solid rgba(256, 256, 256, .1);
+  }
   .bg-nav{
     background-color: #0c0b11;
     border-top: 1px solid rgba(256, 256, 256, .1);
 
   }
   .copyright-red{
-    color: #EB1C24;
+    color: #FF8E48;
   }
   .copyright-red:hover{
-    color: #BF1E2E;
+    color: #af5a24;
     transition: ease-in-out .2s;
   }
   .footer .copyright a {
-      color: #EB1C24;
+      color: #FF8E48;
   }
 
   .footer .copyright a:hover {
@@ -1500,7 +1537,7 @@ margin-left: 45%
             /*---- testimonial section style start ----*/
             section#testimonial {
               margin-top: 3em;
-              margin-bottom: 13em;
+              margin-bottom: 5em;
             }
             
 .testimonial-section h3{
@@ -1525,7 +1562,6 @@ margin-left: -1.7em;}
 
 }
 .testimonial-top img{
-width: 9em;
 }
 
             .testimonial-pattern-overlay.pattern-right {
@@ -2179,7 +2215,7 @@ margin-top: 0em;
 
 
 .service{
-    margin-top: 8em;
+    margin-top: 1em;
 }
 
 
@@ -2366,7 +2402,7 @@ height: 100%; /* Allow the height to adjust proportionally */
 z-index: 2; /* Ensure it appears above other elements */
 }
 .user{
-width: 2.5em;
+width: 2em;
 }
 .van {
 margin-top: -5em;
@@ -2541,7 +2577,7 @@ margin-top: 2em;
 }/* Add this CSS to your existing stylesheet */
 @media (max-width: 370px){
   .appointment {
-    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, .23)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 150vh;
 }
@@ -2589,7 +2625,7 @@ margin-top: 2em;
   font-size: 16px;
 }
 .appointment {
-  background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, .23)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 162vh;
 }
@@ -3363,7 +3399,7 @@ letter-spacing: 1px; /* Adjust the value as needed */
   padding-left: 3.1em;
 }
 .text-about{
-  color: #2e2d2d;
+  color: #8D9297;
   font-weight: 400;
   letter-spacing: .5px;
   font-size: 1.1em !important;
@@ -3405,7 +3441,7 @@ letter-spacing: 1px; /* Adjust the value as needed */
   font-size: 3.5em;
 }
 .projects{
-  margin-bottom: 10em;
+  margin-bottom: 6em;
 }
 .bg-orange{
   background-color: #FF8E48;
@@ -3915,7 +3951,7 @@ display: none;
   .carousel-logo1{
 width: 12.5em !important;  
 height: 1.5em !important; 
-bottom: 30%;
+bottom: 33%;
 left: 10%;
 
 }
@@ -3986,6 +4022,36 @@ display: none;
     min-width: 489px; 
     
     }
+
+    .appointment {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, .23)), url(../img/appointment.jpg) left center no-repeat;
+      background-size: cover;
+    }
+
+    .check-a-trade-logo1{
+      width: 8em;
+    }
+
+    .swiper-pagination {
+      position: absolute;
+      bottom: 60px !important ; /* Adjust the distance from the bottom as needed */
+    }
+    .swiper-pagination .swiper-pagination-bullet {
+      background-color: #FF8E48; /* Change to the color you desire */
+    }
+    
+    
+    .swiper{
+    overflow: visible !important;
+    }
+    .projects{
+      margin-bottom: 3em;
+    }
+
+    .testimonial-section{
+      margin-top: 3em;
+      margin-bottom: .1em !important;
+    }
 }
 
 .navbar-toggler-icon {
@@ -4000,5 +4066,63 @@ display: none;
 
 
 @media (max-width: 767px) {
+  .navbar-nav .nav-link {
+    position: relative;
+    padding: 12px 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #CCB217;
+    outline: none;
+    transition: .5s;
+    font-family: "Montserrat", sans-serif;
+    font-weight:  800;
+font-style: italic ;
 
+}
+
+.navbar-nav .nav-link1 {
+  position: relative;
+padding: 12px 1px;
+font-size: 21px;
+margin: 0 1px;
+z-index: 1;
+text-transform: uppercase;
+color: #605432;
+outline: none;
+transition: .5s;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Francois One', sans-serif;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #FFF427;
+}
+.testimonial-section h3{
+  text-align: center;
+}
+.testimonial-section h6{
+  text-align: center;
+}
+.testimonial-section h5{
+margin-left: 0em;}
+.star{
+margin-left: -0em;}
+.testimonial-top{
+  text-align: center;
+}
+.testimonial-top p{
+  text-align: center;
+  margin-bottom: 3em;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2em;
+
+}
+.user{
+  display: none !important;
+}
+} 
+.check-a-trade-logo1{
+  width: 8em;
 }
