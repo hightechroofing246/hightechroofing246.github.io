@@ -4026,6 +4026,7 @@ display: none;
     .appointment {
       background: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, .23)), url(../img/appointment.jpg) left center no-repeat;
       background-size: cover;
+      height: 123vh;
     }
 
     .check-a-trade-logo1{
@@ -4051,6 +4052,18 @@ display: none;
     .testimonial-section{
       margin-top: 3em;
       margin-bottom: .1em !important;
+    }
+
+    .slant {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      margin-bottom: -11.3em;
+      height: 720px; /* Adjust the height as needed */
+      clip-path: polygon(50% 68.13%, 99.75% 75%, 0.25% 75%);
+      background-color: #ffffff;
+      z-index: 2; /* Ensure it's above the carousel */
     }
 }
 
@@ -4125,4 +4138,13 @@ margin-left: -0em;}
 } 
 .check-a-trade-logo1{
   width: 8em;
+}
+
+
+@media (min-width: 768px){
+  .slant{
+    display: none;
+  }
+  
+
 }
