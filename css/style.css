@@ -3236,10 +3236,12 @@ letter-spacing: 1px; /* Adjust the value as needed */
   margin-right: 61px;
   padding: 25px 0px 20px 0;
   color: #cdcdcd;
+  margin-top: 0em;
+
   font-size: 20px;
 text-transform: capitalize;
 letter-spacing: 1px; /* Adjust the value as needed */
-
+margin-top: 0em;
   outline: none;
   font-weight: 300; 
 
@@ -3712,6 +3714,98 @@ display: none;
     .service{
       margin-top: -18em !important;
       }
+      .slant {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin-bottom: -11.3em;
+        height: 720px; /* Adjust the height as needed */
+        clip-path: polygon(50% 68.13%, 99.75% 75%, 0.25% 75%);
+        background-color: #ffffff;
+        z-index: 2; /* Ensure it's above the carousel */
+      }
+  
+      .appointment {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, .23)), url(../img/appointment.jpg) left center no-repeat;
+        background-size: cover;
+        height: 173vh;
+      }
+  
+      .check-a-trade-logo1{
+        width: 8em;
+      }
+  
+      .swiper-pagination {
+        position: absolute;
+        bottom: 60px !important ; /* Adjust the distance from the bottom as needed */
+      }
+      .swiper-pagination .swiper-pagination-bullet {
+        background-color: #FF8E48; /* Change to the color you desire */
+      }
+      
+      
+      .swiper{
+      overflow: visible !important;
+      }
+      .projects{
+        margin-bottom: 3em;
+      }
+  
+      .testimonial-section{
+        margin-top: 2em;
+        margin-bottom: -2em !important;
+      }
+
+      .font-type-contact{
+        font-weight: 700;
+        font-size: 2.15em;
+    text-transform: uppercase;
+      } 
+
+      .navbar .navbar-nav .nav-link {
+        margin-right: 1px;
+        padding: 5px 10px 0px 0 !important;
+      color: #cdcdcd;
+      font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px; /* Adjust the value as needed */
+      outline: none;
+      font-weight: 300; 
+    
+      }
+      .navbar .navbar-nav .nav-link2 {
+        margin-right: 1px;
+      color: #cdcdcd;
+      padding: 5px 10px 10px 0 !important;
+
+      font-size: 18px !important;
+    text-transform: capitalize;
+    letter-spacing: 1px; /* Adjust the value as needed */
+      outline: none;
+      font-weight: 300; 
+    
+      }
+      
+      .navbar .navbar-nav .nav-link:hover,
+      .navbar .navbar-nav .nav-link.active {
+      color: #FF8E48;
+      }
+      .navbar .navbar-nav .nav-link2:hover,
+      .navbar .navbar-nav .nav-link2.active {
+      color: #FF8E48;
+      }
+
+      .navbar-nav{
+        margin-left: .35em !important;
+      }
+      .navbar-mr{
+        margin-top: -1.3em !important;
+        margin-left: 1.3em !important;
+      }
+      .dropdown-toggle::after {
+        margin-left: 15px; /* Adjust the value as needed */
+    }
     
 }
 /*NAVBAR RESPONSIVE*********/
@@ -3731,7 +3825,12 @@ display: none;
     position: sticky;
     z-index: 10000;
   }
-  
+  .navbar-nav{
+    margin-left: 0em !important;
+  }
+  .navbar-mr{
+    margin-right: 0em;
+  }
   .navbar-brand {
     padding-left: 1.35em !important;
     padding-bottom: 1.75em;
@@ -3797,7 +3896,7 @@ display: none;
 width: 12.5em !important;  
 height: 1.5em !important; 
 bottom: 30%;
-left: 10%;
+left: 8%;
 
 }
 
@@ -3808,8 +3907,8 @@ left: 10%;
     text-align: left;
     text-transform: uppercase;
     padding: .5em 2em .5em 1.4em;
-    margin-left: .99em;
-    margin-top: 2.5em;
+    margin-left: .6em;
+    margin-top: 2.35em;
     border-radius: 5.21em;
     font-size: 15.7px;
     font-weight: 500 !important;
@@ -3867,6 +3966,55 @@ display: none;
     min-width: 489px; 
     
     }
+    .slant {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      margin-bottom: -11.3em;
+      height: 720px; /* Adjust the height as needed */
+      clip-path: polygon(50% 68.13%, 99.75% 75%, 0.25% 75%);
+      background-color: #ffffff;
+      z-index: 2; /* Ensure it's above the carousel */
+    }
+
+    .appointment {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, .23)), url(../img/appointment.jpg) left center no-repeat;
+      background-size: cover;
+      height: 123vh;
+    }
+
+    .check-a-trade-logo1{
+      width: 8em;
+    }
+
+    .swiper-pagination {
+      position: absolute;
+      bottom: 60px !important ; /* Adjust the distance from the bottom as needed */
+    }
+    .swiper-pagination .swiper-pagination-bullet {
+      background-color: #FF8E48; /* Change to the color you desire */
+    }
+    
+    
+    .swiper{
+    overflow: visible !important;
+    }
+    .projects{
+      margin-bottom: 3em;
+    }
+
+    .testimonial-section{
+      margin-top: 2em;
+      margin-bottom: -2em !important;
+    }
+
+    
+    .font-type-contact{
+      font-weight: 700;
+      font-size: 2.15em;
+  text-transform: uppercase;
+    } 
 }
 
 /*NAVBAR RESPONSIVE*********/
@@ -3877,6 +4025,11 @@ display: none;
     display: none ;
   }
 
+  .font-type-contact{
+    font-weight: 700;
+    font-size: 2.15em;
+text-transform: uppercase;
+  } 
   .right-content i{
     display: none ;
   }
@@ -3951,8 +4104,8 @@ display: none;
   .carousel-logo1{
 width: 12.5em !important;  
 height: 1.5em !important; 
-bottom: 33%;
-left: 10%;
+bottom: 34%;
+left: 7.75%;
 
 }
 
@@ -3963,8 +4116,8 @@ left: 10%;
     text-align: left;
     text-transform: uppercase;
     padding: .5em 2em .5em 1.4em;
-    margin-left: .99em;
-    margin-top: 2.5em;
+    margin-left: .83em;
+    margin-top: .9em;
     border-radius: 5.21em;
     font-size: 15.7px;
     font-weight: 500 !important;
@@ -3984,7 +4137,7 @@ display: none;
   .carousel-item {
     position: absolute;
     width: 100%;
-    height: 65vh !important;
+    height: 70vh !important;
     object-fit: cover;
   }
   .left-content,
@@ -4079,38 +4232,7 @@ display: none;
 
 
 @media (max-width: 767px) {
-  .navbar-nav .nav-link {
-    position: relative;
-    padding: 12px 0px;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #CCB217;
-    outline: none;
-    transition: .5s;
-    font-family: "Montserrat", sans-serif;
-    font-weight:  800;
-font-style: italic ;
 
-}
-
-.navbar-nav .nav-link1 {
-  position: relative;
-padding: 12px 1px;
-font-size: 21px;
-margin: 0 1px;
-z-index: 1;
-text-transform: uppercase;
-color: #605432;
-outline: none;
-transition: .5s;
-font-family: 'Bebas Neue', sans-serif;
-font-family: 'Francois One', sans-serif;
-}
-
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link.active {
-    color: #FFF427;
-}
 .testimonial-section h3{
   text-align: center;
 }
@@ -4148,3 +4270,15 @@ margin-left: -0em;}
   
 
 }
+.navbar-nav{
+  margin-left: 8.5em;
+}
+.navbar-mr{
+  margin-right: -7em;
+
+}  
+.navbar-nav .dropdown-toggle::after {
+  margin-left: 10px; /* Adjust the value as needed */
+}
+
+
