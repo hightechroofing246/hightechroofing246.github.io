@@ -8487,3 +8487,26 @@ section#testimonial {
   margin-bottom: 2em;
 }
 }
+/* Centering the breadcrumb on mobile devices */
+@media (max-width: 767px) {
+  .breadcrumb-container {
+      display: flex;
+      justify-content: center;
+  }
+
+  .breadcrumb {
+      display: inline-flex;
+      margin: 0;
+      padding: 0;
+  }
+
+  .breadcrumb-item {
+      display: inline;
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+      content: "/";
+      margin: 0 0.15rem;
+      color: #fff;
+  }
+}
