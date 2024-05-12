@@ -8799,9 +8799,7 @@ margin-bottom: 2em;
   .contact-section .section-tittle3 h6 {
       text-align: center !important;
   }
-  .projects-page-header{
-    font-size: 1.85em !important;
-  }
+ 
   
 }
 @media (min-width: 300px) and (max-width: 385px) {
@@ -8820,7 +8818,7 @@ margin-bottom: 2em;
   .projects-page-header{
     margin-bottom: -.01em !important;
 
-    font-size: 1.85em;
+    font-size: 1.85em !important;
   }
   
 }
