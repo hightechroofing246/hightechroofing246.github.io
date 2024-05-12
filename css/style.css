@@ -8836,7 +8836,7 @@ margin-bottom: 2em;
       text-align: center !important;
   }
   .projects-page-header{
-    font-size: 2em;
+    font-size: 2em !important;
     margin-bottom: -.01em !important;
   }
   
