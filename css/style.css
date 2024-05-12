@@ -8800,7 +8800,7 @@ margin-bottom: 2em;
       text-align: center !important;
   }
   .projects-page-header{
-    font-size: 1.85em;
+    font-size: 1.85em !important;
   }
   
 }
