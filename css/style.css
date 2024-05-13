@@ -3832,7 +3832,7 @@ text-transform: capitalize;
 
 .contact-info{
 display: block;  }
-.right-content span{
+.right-content{
   display: none ;
 }
 
