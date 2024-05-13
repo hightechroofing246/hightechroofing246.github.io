@@ -532,6 +532,11 @@ color: #FF8E48;
     text-transform: capitalize;
     transition: .3s;
 }
+.footer-number{
+  margin-left: 5px;
+  color: #999999;
+  text-decoration: underline !important;
+}
 
 .footer .btn.btn-link::before {
     position: relative;
@@ -1536,7 +1541,7 @@ background-color: #eaebec;
           /*---- testimonial section style start ----*/
           section#testimonial {
             margin-top: 3em;
-            margin-bottom: 5em;
+            margin-bottom: 2em;
           }
           
 .testimonial-section h3{
@@ -2017,7 +2022,7 @@ width: 100vh;    }
 }
 .footer-link{
   color: #9B9B9B;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .footer-link:hover{
   color: #6b6b6b;
@@ -2749,7 +2754,7 @@ margin-top: 15em;
 @media screen and (min-width: 1400px) and (max-width: 1800px){
 .testimonial-section{
   margin-top: 3em;
-  margin-bottom: 6em;
+  margin-bottom: -1em !important;
 }
 .testimonial-content {
   position: relative;
@@ -2791,7 +2796,10 @@ width: 2.75em;
 
 @media screen and (min-width: 1000px) and (max-width: 1250px){
 
-  
+  .carousel-buttons{
+    margin-left: -9% !important;
+    margin-top: 1em !important;
+    }
     
 @keyframes driveIn {
 from {
@@ -3010,7 +3018,11 @@ z-index: 1;
       iframe {
         height: 768px !important; /* Adjust the height as needed */
       }
-    
+      .carousel-buttons{
+        margin-left: -9% !important;
+        margin-top: 1em !important;
+        }
+
       
     }
     @media screen and (max-width: 1000px){
@@ -3018,7 +3030,6 @@ z-index: 1;
         width: 25em;
     padding-right: 2em;    
       }
-
 
     }
 
@@ -3380,7 +3391,7 @@ text-align: left;
 
 .carousel-buttons{
 margin-left: -9% !important;
-margin-top: 2em;
+margin-top: 0em;
 }
 
 .icon-colour-orange{
@@ -3669,10 +3680,9 @@ text-transform: capitalize;
     .right-content {
       display: none;
     }
-    .left-content,
-   span {
+    .left-mobile-none {
       display: none;
-    }
+    } 
     
     .phone-number2 {
       display: inline-block;
@@ -3938,11 +3948,9 @@ display: none;
 .right-content {
   display: none;
 }
-.left-content,
-span {
+.left-mobile-none {
   display: none;
 }
-
 .phone-number2 {
   display: inline-block;
   position: absolute;
@@ -4213,8 +4221,7 @@ display: none;
 .right-content {
   display: none;
 }
-.left-content,
-span {
+.left-mobile-none {
   display: none;
 }
 
@@ -4385,6 +4392,7 @@ text-transform: uppercase;
   z-index: 10000;
 }
 
+
 .navbar-brand {
   padding-left: 1.35em !important;
   padding-bottom: 1.75em;
@@ -4489,8 +4497,7 @@ display: none;
 .right-content {
   display: none;
 }
-.left-content,
-span {
+.left-mobile-none {
   display: none;
 }
 
@@ -4806,8 +4813,7 @@ display: none;
 .right-content {
   display: none;
 }
-.left-content,
-span {
+.left-mobile-none {
   display: none;
 }
 
@@ -7207,7 +7213,7 @@ margin-right: 2em;
   font-size: 2.5em;
 }
 .service{
-  margin-top: 5em;
+  margin-top: 3em !important;
 }
 .swiper-pagination {
 position: absolute;
@@ -7488,7 +7494,7 @@ margin-right: 2em;
   font-size: 2.5em;
 }
 .service{
-  margin-top: 5em;
+  margin-top: 1em !important; 
 }
 .swiper-pagination {
 position: absolute;
@@ -8117,10 +8123,7 @@ margin-top: 0em;
     margin-left: 10px; /* Add units to the margin value */
   }
   
-.carousel-buttons{
-  margin-left: -9% !important;
-  margin-top: 2em;
-}
+
 
 .navbar-nav{
   margin-left: 4.98em;
@@ -8439,7 +8442,7 @@ margin-top: 0em;
   
 .carousel-buttons{
   margin-left: -9% !important;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .navbar-nav{
