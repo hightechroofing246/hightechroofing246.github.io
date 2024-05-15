@@ -77,8 +77,7 @@
           <span class="mr-2 left-mobile-none"><span>Need any roofing help?</span> Call Us today</span>
           <div class="contact-info d-flex align-items-center">
             <i class="fas fa-phone mr-1 phone-icon2"></i>
-            <span class="phone-number2"> +07454 792103</span>
-          </div>
+            <span class="phone-number2" data-phone-numbers="+07481 977883, +01753 317 798">+07454 792103</span>          </div>
         </div>
         <a href="index.html" class="navbar-brand">
           <img class="logo" src="img/Untitled-21.png" alt="King's Reach Roofing's logo">
@@ -853,6 +852,34 @@ Project End -->
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
+
+
+<script>
+  // JavaScript to rotate phone numbers with longer slide animation
+  document.addEventListener('DOMContentLoaded', () => {
+      const phoneNumberElement = document.querySelector('.phone-number2');
+      const phoneNumbers = phoneNumberElement.getAttribute('data-phone-numbers').split(',');
+      let currentIndex = 0;
+
+      const changePhoneNumber = () => {
+          phoneNumberElement.classList.remove('visible');
+          phoneNumberElement.classList.add('slide-up');
+
+          setTimeout(() => {
+              currentIndex = (currentIndex + 1) % phoneNumbers.length;
+              phoneNumberElement.textContent = phoneNumbers[currentIndex];
+              phoneNumberElement.classList.remove('slide-up');
+              phoneNumberElement.classList.add('slide-down');
+              setTimeout(() => {
+                  phoneNumberElement.classList.remove('slide-down');
+                  phoneNumberElement.classList.add('visible');
+              }, 50); // Short delay to trigger slide down
+          }, 1000); // Match this duration with the CSS transition duration
+      };
+
+      setInterval(changePhoneNumber, 10000); // Change every 10 seconds
+  });
+</script>
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
