@@ -3977,6 +3977,9 @@ display: none;
   .about-h1-size{
     font-size: 2.25em;
   }
+  .right-content span{
+    display: none;
+  }
 
   .service{
     margin-top: -18em !important;
@@ -4090,6 +4093,7 @@ display: none;
     text-align: center !important;
   margin-left: 35%
   }
+  
 }
 /*NAVBAR RESPONSIVE*********/
 
@@ -4098,6 +4102,7 @@ display: none;
 .right-content span{
   display: none ;
 }
+
 
 .right-content i{
   display: none ;
@@ -8924,5 +8929,5 @@ margin-bottom: 2em;
 }
 .phone-number-link{
   color: #fff;
-  
+  margin-left: 8px;
 }
